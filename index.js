@@ -34,12 +34,12 @@ function prependDriver(name){
 
 function removeLastDriver(){
   newdrivers = drivers.slice(0)
-  newdrivers.pop
+  newdrivers.pop()
   return newdrivers
 }
 
 function removeFirstDriver(){
   newdrivers = drivers.slice(0)
-  newdrivers.shift
+  newdrivers.shift()
   return newdrivers
 }

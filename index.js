@@ -31,3 +31,9 @@ function prependDriver(name){
   newdrivers.unshift(name)
   return newdrivers
 }
+
+function removeLastDriver(){
+  newdrivers = drivers.slice(0)
+  newdrivers.pop
+  return newdrivers
+}
